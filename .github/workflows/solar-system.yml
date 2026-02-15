@@ -1,5 +1,7 @@
 name: Solar System Workflow
-
+env:
+  MONGO_USERNAME: superuser
+  MONGO_URI: 'mongodb+srv://supercluster.d83jj.mongodb.net/superData'
 on: 
   workflow_dispatch:
   push:
